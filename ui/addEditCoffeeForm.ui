@@ -22,6 +22,9 @@
         <property name="enabled">
          <bool>false</bool>
         </property>
+        <property name="maximum">
+         <number>99999999</number>
+        </property>
        </widget>
       </item>
       <item row="5" column="0">
@@ -103,10 +106,18 @@
        <widget class="QTextEdit" name="textEditDescriptionTaste"/>
       </item>
       <item row="5" column="1">
-       <widget class="QDoubleSpinBox" name="doubleSpinBoxCost"/>
+       <widget class="QDoubleSpinBox" name="doubleSpinBoxCost">
+        <property name="maximum">
+         <double>99999999.989999994635582</double>
+        </property>
+       </widget>
       </item>
       <item row="6" column="1">
-       <widget class="QDoubleSpinBox" name="doubleSpinBoxPackingVolume"/>
+       <widget class="QDoubleSpinBox" name="doubleSpinBoxPackingVolume">
+        <property name="maximum">
+         <double>99999999.989999994635582</double>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>
